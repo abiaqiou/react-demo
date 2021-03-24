@@ -24,6 +24,7 @@ const UseState = () => {
   }
   return (
     <div>
+      <h2>UseState</h2>
       <p>{count}</p>
       <button onClick={addCount}>+</button>
       <button onClick={() => setCount(0)}>Reset</button>
