@@ -1,3 +1,4 @@
+import UseCallback from './native_hooks/useCallback'
 import UseContext from './native_hooks/useContext'
 import UseEffect from './native_hooks/useEffect'
 import UseMemo from './native_hooks/useMemo'
@@ -19,6 +20,8 @@ function App() {
       <UseRef />
       <hr />
       <UseMemo />
+      <hr />
+      <UseCallback />
     </div>
   )
 }
