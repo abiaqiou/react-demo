@@ -1,9 +1,9 @@
-import Price from './components/Price'
+import UseState from './native_hooks/useState'
 
 function App() {
   return (
     <div className="App">
-      <Price currency="USDT" />
+      <UseState />
     </div>
   )
 }
